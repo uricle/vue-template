@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', or 'ESNEXT'. */
+    "module": "es2015",
+    /* Specify module code generation: 'commonjs', 'amd', 'system', 'umd' or 'es2015'. */
+    "lib": ["dom", "es6"],
+    /* Specify library files to be included in the compilation:  */
+    "sourceMap": true,
+    /* Generates corresponding '.map' file. */
+    // "outFile": "../battleLogUtil.js", /* Concatenate and emit output to single file. */
+    "importHelpers": true,
+    /* Import emit helpers from 'tslib'. */
+    // "strict": true, /* Enable all strict type-checking options. */
+    "preserveConstEnums": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    /* Raise error on expressions and declarations with an implied 'any' type. */
+    "moduleResolution": "node",
+    /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
+    "baseUrl": ".",
+    /* Base directory to resolve non-absolute module names. */
+    "paths": { /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
+      "*": [
+        "*",
+      ]
+    },
+    // "rootDirs": [],                        /* List of root folders whose combined content represents the structure of the project at runtime. */
+    "typeRoots": ["./node_modules/@types"],
+    /* List of folders to include type definitions from. */
+    "experimentalDecorators": true /* Enables experimental support for ES7 decorators. */
+  },
+  "include": [
+    "./**/*.d.ts",
+    "./**/*"
+  ]
+}
